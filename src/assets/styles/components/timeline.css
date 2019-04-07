@@ -1,0 +1,114 @@
+.dito-timeline-all-content {
+    display: flex;
+    justify-content: center;
+}
+
+.dito-timeline-wrapper {
+    width: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.dito-timeline {
+    width: 2px;
+    background-color: #d5d8df;
+    height: inherit;
+    position: relative;
+}
+
+.dito-timeline-cards-wrapper {
+    display: flex;
+    padding-top: 30px;
+    flex-direction: column;
+}
+
+.dito-timeline-check-icon {
+    margin-top: 8px;
+    margin-left: -45px;
+    height: 28px;
+    position: absolute;
+    left: 0;
+    z-index: 2;
+}
+
+.dito-timeline-card {
+    width: 450px;
+    height: auto;
+    position: relative;
+    margin-left: 30px;
+    margin-bottom: 25px;
+    background-color: #f8f8f8;
+    border-radius: 8px;
+    -webkit-box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, .2);
+    -moz-box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, .2);
+    box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, .2);
+}
+
+.arrow-left {
+    width: 0;
+    height: 0;
+    margin-top: 12px;
+    margin-left: -10px;
+    position: absolute;
+    left: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-right: 10px solid #fff;
+}
+
+.dito-timeline-card label {
+    color: #707070;
+}
+
+.dito-timeline-card-header {
+    width: 100%;
+    height: 40px;
+    padding-right: 25px;
+    padding-left: 25px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    align-items: center;
+    background-color: #fff;
+}
+
+
+.dito-timeline-card-header-group {
+    display: flex;
+    font-size: 14px;
+}
+
+.dito-timeline-card-header-group img {
+    height: 15px;
+    margin-right: 5px;
+}
+
+.dito-timeline-card-body {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.dito-timeline-card-row {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1.5px solid #f0f0f0;
+}
+
+.dito-timeline-card-row:last-child {
+    border-bottom: none;
+}
+
+
+.dito-timeline-card-row-title {
+    font-size: 14px;
+    font-family: 'Roboto-Bold';
+}
+
+.dito-timeline-card-row-label {
+    font-size: 14px;
+}

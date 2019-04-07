@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'Roboto-Regular';
+    src:
+        url('../../fonts/Roboto/Roboto-Regular.ttf') format('truetype')
+}
+
+@font-face {
+    font-family: 'Roboto-Bold';
+    src:
+        url('../../fonts/Roboto/Roboto-Bold.ttf') format('truetype')
+}
+
+.dito-index-content {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    background-color: #eff1fb;
+    font-family: 'Roboto-Regular';
+}
+
+.linkedin-profile-redirect {
+    font-size: 44px;
+    color: #707070;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-bottom: 20px;
+    margin-right: 40px;
+    transition: opacity .3s;
+    opacity: .5;
+}
+
+.linkedin-profile-redirect:hover {
+    transition: opacity .3s;
+    opacity: 1;
+}
